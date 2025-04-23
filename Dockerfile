@@ -12,6 +12,6 @@ RUN wget --no-verbose https://download.screamingfrog.co.uk/products/seo-spider/s
     apt-get install -f -y
 
 # accept the EULA
-RUN mkdir -p  && echo "eula.accepted=15" >> ~/.ScreamingFrogSEOSpider/spider.config
+RUN mkdir -p ~/.ScreamingFrogSEOSpider && echo "eula.accepted=15" >> ~/.ScreamingFrogSEOSpider/spider.config
 
 WORKDIR /home/ubuntu
