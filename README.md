@@ -8,7 +8,7 @@ To build the Docker image, run the following command in the directory containing
 `docker build -t screamingfrog-seo-spider .`
 
 ### Important
-To build the Docker image on MacOS Apple Silicon systems (ARM chips), specify the --platform
+To build the Docker image on MacOS Apple Silicon systems (ARM chips), to properly run the container you need to use the --platform argument:
 
 `docker build --platform linux/amd64 -t screamingfrog-seo-spider .`
 
