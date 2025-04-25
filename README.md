@@ -31,5 +31,5 @@ Replace <url> with the URL you want to crawl and <folder> with the directory whe
 More details about using Screaming Frog CLI can be found on the [official site](https://www.screamingfrog.co.uk/seo-spider/user-guide/general/#command-line)
 
 ## Notes
-1. This image installs Screaming Frog SEO Spider version 21.4.
+1. This image installs Screaming Frog SEO Spider version 21.4 in trial mode.
 2. The EULA is accepted automatically during the build process.
